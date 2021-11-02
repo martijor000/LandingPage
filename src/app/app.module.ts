@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponentComponent } from './header-component/header-component.component';
 import { ProductComponentComponent } from './product-component/product-component.component';
 import { BodyComponentComponent } from './body-component/body-component.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { BodyComponentComponent } from './body-component/body-component.componen
     BodyComponentComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
