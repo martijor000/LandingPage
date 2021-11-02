@@ -1,1 +1,11 @@
-<p>header-component works!</p>
+<ul ngbNav [(activeId)]="activeId" class="nav-tabs">
+    <li [ngbNavItem]="1">
+      <a ngbNavLink>Home</a>
+    </li>
+    <li [ngbNavItem]="2">
+      <a ngbNavLink>Products</a>
+    </li>
+    <li [ngbNavItem]="3">
+        <a ngbNavLink>Contact</a>
+      </li>
+  </ul>
