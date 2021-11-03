@@ -1,9 +1,10 @@
-.col-sm-3{
-    border-style: solid;
-    border: 2px 2px black;
+.container-sm{
+    margin-top: 5%;
+}
+.col-sm-4{
     text-align: center;
-    margin: 2%;
-    padding: 0%;
+    padding: 2%;
+    align-self: center;
 }
 .card-title{
     font-size: 140%;
@@ -14,7 +15,6 @@
 }
 
 .row{
-    margin: auto;
-    margin-top: 5%;
     width: 70%;
+    margin: 0 auto;
 }
