@@ -1,4 +1,4 @@
-import { BodyComponentComponent } from "./body-component/body-component.component";
+import { BodyComponentComponent } from "./main/body-component/body-component.component";
 import { NgModule } from "@angular/core";
 import { Routes, RouterModule } from "@angular/router"; // router imported from angular
 import { ProductPageComponent } from "./product-page/product-page.component";
