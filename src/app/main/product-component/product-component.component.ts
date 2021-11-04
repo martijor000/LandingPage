@@ -9,7 +9,7 @@ export class ProductComponentComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit(): void {
+  ngOnInit(){
   }
 
 }

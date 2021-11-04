@@ -3,7 +3,7 @@
         <a ngbNavLink>BrandName</a>
     </li> 
     <li ngbNavItem id="brand" *ngFor="let item of urls">
-      <a routerLink="item.route" routerLinkActive="active" routerLinkActiveOptions="{exact: true}">{{ item.name}}</a>
+      <a [routerLink]="item.route" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">{{ item.name}}</a>
   </li>       
 </ul>
 <div [ngbNavOutlet]="nav"></div>

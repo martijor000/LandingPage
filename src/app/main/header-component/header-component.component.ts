@@ -11,10 +11,10 @@ export class HeaderComponentComponent implements OnInit {
     {route: '', name: 'Home'},
     {route: '/products', name: 'Products'},
     {route: '/contact', name: 'Contact'}
-  ]
+  ];
   constructor() { }
 
-  ngOnInit(): void {
+  ngOnInit(){
   }
 
 }

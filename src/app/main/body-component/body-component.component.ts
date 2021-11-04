@@ -7,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BodyComponentComponent implements OnInit {
 
+  isVisible: boolean = false;
+
   constructor() { }
 
-  ngOnInit(): void {
+  ngOnInit(){
+  }
+
+  setVisibility() {
+    this.isVisible = !this.isVisible;
   }
 
 }

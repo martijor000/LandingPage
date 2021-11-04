@@ -8,9 +8,5 @@ import {NgbConfig} from '@ng-bootstrap/ng-bootstrap';
 })
 export class AppComponent {
   title = 'LandingPage';
-
-  constructor(ngbConfig: NgbConfig) {
-    ngbConfig.animation = false;
-  }
 }
 
