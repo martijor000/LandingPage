@@ -6,13 +6,15 @@ import { HeaderComponentComponent } from './header-component/header-component.co
 import { ProductComponentComponent } from './product-component/product-component.component';
 import { BodyComponentComponent } from './body-component/body-component.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { ProductPageComponent } from './product-page/product-page.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponentComponent,
     ProductComponentComponent,
-    BodyComponentComponent
+    BodyComponentComponent,
+    ProductPageComponent
   ],
   imports: [
     BrowserModule,
